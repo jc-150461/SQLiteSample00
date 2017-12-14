@@ -16,7 +16,7 @@ namespace Xamarin007
         {
             //AppのdbPathに引数のパスを設定
             App.dbPath = dbPath;
-
+           
             InitializeComponent();
 
             MainPage = new MainPage4();

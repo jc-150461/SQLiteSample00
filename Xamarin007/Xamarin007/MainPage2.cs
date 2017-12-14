@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -82,7 +82,7 @@ namespace Xamarin007
                 }
             }
             Content = layout;*/
-       // }************************** } 必要
+        } 
 
         
 
@@ -108,7 +108,7 @@ namespace Xamarin007
             layout.Children.Add(buttonAdd);
             buttonAdd.Clicked += AddClicked;
 
-            //実験
+            
             //Userテーブルの行データを取得
             var query = UserModel.selectUser(); //中身はSELECT * FROM [User]
 
@@ -118,8 +118,7 @@ namespace Xamarin007
                 layout.Children.Add(new Label { Text = user.Name });
             }
             Content = layout;
-        }*****************
+        }*/
     }
 }
 
-*/
