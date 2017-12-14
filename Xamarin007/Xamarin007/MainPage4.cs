@@ -38,7 +38,7 @@ namespace Xamarin007
                 ItemTemplate = new DataTemplate(() => new MyCell(this)),
 
             };
-            /*
+            
             //文字入力
             var entry = new Entry
             {
@@ -74,7 +74,7 @@ namespace Xamarin007
                     {
                         new StackLayout
                         {
-                            BackgroundColor = Color.HotPink,
+                            BackgroundColor = Color.LemonChiffon,
                             Padding = 5,
                             Orientation = StackOrientation.Horizontal,
                             Children = {entry,buttonAdd}//Entryコントロールとボタンコントロールを配置
@@ -83,7 +83,7 @@ namespace Xamarin007
                     }
 
             };
-            */
+            
         }
         
     
