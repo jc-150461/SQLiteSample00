@@ -19,6 +19,8 @@ namespace Xamarin007
 
             var layout = new StackLayout { HorizontalOptions = LayoutOptions.Center, Margin = new Thickness { Top = 100 } };
 
+            
+
             //-------------------------------エントリー-------------------------------
             //文字入力
             entry = new Entry
