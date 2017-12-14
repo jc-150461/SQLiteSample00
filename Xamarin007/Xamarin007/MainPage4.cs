@@ -22,7 +22,9 @@ namespace Xamarin007
 
         public MainPage4()
         {
-          
+            
+       
+
 
             if (UserModel.selectUser() != null)
             {
@@ -36,7 +38,7 @@ namespace Xamarin007
                 ItemTemplate = new DataTemplate(() => new MyCell(this)),
 
             };
-
+            /*
             //文字入力
             var entry = new Entry
             {
@@ -64,7 +66,7 @@ namespace Xamarin007
                     //entry.Text = "";
                 }
             };
-
+            
             Content = new StackLayout
             {
                 Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0),
@@ -81,7 +83,10 @@ namespace Xamarin007
                     }
 
             };
+            */
         }
+        
+    
 
         public void Action(MenuItem item)
         {

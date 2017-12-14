@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -82,7 +82,7 @@ namespace Xamarin007
                 }
             }
             Content = layout;*/
-        } 
+       // } ********************************************************
 
         
 
@@ -118,7 +118,9 @@ namespace Xamarin007
                 layout.Children.Add(new Label { Text = user.Name });
             }
             Content = layout;
-        }*/
+        }************************************************************************************
     }
 }
 
+
+*/
