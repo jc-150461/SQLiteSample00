@@ -22,7 +22,7 @@ namespace Xamarin007
 
         public MainPage4()
         {
-            UserModel.insertUser("鈴木");
+          
 
             if (UserModel.selectUser() != null)
             {
