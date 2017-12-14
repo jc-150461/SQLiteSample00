@@ -82,7 +82,7 @@ namespace Xamarin007
                 }
             }
             Content = layout;*/
-        }
+       // }************************** } 必要
 
         
 
@@ -118,6 +118,8 @@ namespace Xamarin007
                 layout.Children.Add(new Label { Text = user.Name });
             }
             Content = layout;
-        }*/
+        }*****************
     }
 }
+
+*/
